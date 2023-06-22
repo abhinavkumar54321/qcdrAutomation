@@ -84,6 +84,7 @@ test("My first test",async () => {
   await expect( row1.getByRole('cell', { name: '3', exact: true })).toBeVisible();
   await expect( row1.getByRole('cell', { name: '66', exact: true })).toBeVisible();
   await expect( row1.getByRole('cell', { name: '103', exact: true })).toBeVisible();
+  await expect( row1.getByRole('cell', { name: 'EHR', exact: true })).toBeVisible();
 
    //await page.getByRole('cell', { name: '5.9', exact: true }).click();
   //await expect(getByRole('row', { name: 'Toggle Row Selected IA_PM_16 Population Management Implementation of medication management practice improvements Medium 20 10' }).getByRole('checkbox', { name: 'Toggle Row Selected' })).toBeChecked();
